@@ -1,15 +1,18 @@
 package Student;
+
+import com.globalpayex.college.entities.StudentOld;
+
 // by default every class has an object in memory of type class which already build in class 
 public class createStudentObjects {
 	public static void main(String[] args) {
 		//called the static variable
-	    System.out.println(Student.count);
+	    System.out.println(StudentOld.count);
 	    
 	    // so when we need to create a studnet with out using new keyword to create
 	    // object of student then we have to use static which helps to create a object of 
 	    // student class which return a object for us a no need to write new keyword
 	    //
-	    Student.CreateObjectForUsWithOutNewKeyword("Nirmal",'M',5,99.9f);
+	    StudentOld.CreateObjectForUsWithOutNewKeyword("Nirmal",'M',5,99.9f);
 	    //
 		//internally working is 
 		//Student(0x234)
@@ -29,7 +32,7 @@ public class createStudentObjects {
 		
 		// initialise the default value to the member varible without using parmeterised 
 		//constructor
-		Student s3 = new Student();
+		StudentOld s3 = new StudentOld();
 		/*
 		System.out.println(s1.name = "nirmal");
 		System.out.println(s1.gender= 'M');
@@ -51,7 +54,7 @@ public class createStudentObjects {
 //		System.out.println(s1.getDetails());
 //		System.out.println(s1.getGrade());
 		
-		System.out.println(Student.count);
+		System.out.println(StudentOld.count);
 //		System.out.println(s2.getDetails());
 
 		

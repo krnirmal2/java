@@ -1,6 +1,6 @@
 package Array;
 
-import Student.Student;
+import com.globalpayex.college.entities.StudentOld;
 
 public class ArrayObject {
 	

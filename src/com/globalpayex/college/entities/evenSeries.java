@@ -1,4 +1,4 @@
-package firstProject;
+package com.globalpayex.college.entities;
 
 public class evenSeries {
 	static String evenSeriess(int n) {

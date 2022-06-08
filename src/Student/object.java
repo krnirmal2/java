@@ -1,5 +1,7 @@
 package Student;
 
+import com.globalpayex.college.entities.StudentOld;
+
 public class object {
 	
 	public static void main(String[] args) {
@@ -10,9 +12,9 @@ public class object {
 //					
 //					Student array[] = {obj1,obj2,obj3};
 		
-		Student array[] = {new Student("Nirmal",'M',5,99.9f), 
-						   new Student("Nmal",'M',5,99.9f),
-						   new Student("rmal",'M',5,99.9f)};
+		StudentOld array[] = {new StudentOld("Nirmal",'M',5,99.9f), 
+						   new StudentOld("Nmal",'M',5,99.9f),
+						   new StudentOld("rmal",'M',5,99.9f)};
 				          
 		
 		
@@ -23,7 +25,7 @@ public class object {
 //						System.out.println(array[i].gender);
 						//need to clear that how to use object oriented way to call the 
 						// student object
-						System.out.println(Student.getGenderName());
+//						System.out.println(Student.getGenderName());
 					}
 					
 		 

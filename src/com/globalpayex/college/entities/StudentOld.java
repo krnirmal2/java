@@ -1,6 +1,6 @@
-package Student;
+package com.globalpayex.college.entities;
 
-public class Student {
+public class StudentOld {
 	//instance attributes or properties of student but not class attribute
 	String name;
 	char gender;
@@ -22,24 +22,28 @@ public class Student {
 //	}
 	
 	//parameterised constructor and a default this parameter
-	Student(String name, char gender, int roll, float marks){
+	public StudentOld(String name, char gender, int roll, float marks){
 		this.name = name;
 		this.gender = gender;
 		this.Roll = roll ;
 		this.marks = marks;
-		Student.count++;
+		StudentOld.count++;
 		
 	}
-	
-	Student(){
+	// so here we have done access specifier as public
+	// it resolved the reference of access one class member 
+	// means when two file are in different directory or package on that
+//	time it will help to resolve the error due to not accessing the "Default"
+	//access specifier
+	public StudentOld(){
 		// must be the first statement in a constructor
 		// and also we can't call using new keywork
 		this("Na",'m',-1,0.0f);
 	}
 	
 	// return Student type object without new keyword in CreateStudent file
-	static Student CreateObjectForUsWithOutNewKeyword(String name, char gender, int roll, float marks) {
-		return new Student( name, gender, roll, marks);// it doesn't need this keyword because it doesn't call by object
+	static StudentOld CreateObjectForUsWithOutNewKeyword(String name, char gender, int roll, float marks) {
+		return new StudentOld( name, gender, roll, marks);// it doesn't need this keyword because it doesn't call by object
 	}
 	
 	//internally getdetails will call like 
@@ -84,3 +88,5 @@ public class Student {
     }
 	
 }
+
+// let add
