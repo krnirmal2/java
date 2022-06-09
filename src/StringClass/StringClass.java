@@ -3,6 +3,16 @@ package StringClass;
 public class StringClass {
 	
 	public static void main(String[] args) {
+		// wrapper type is use ful to convert the string to any primitive type data
+//		using wrapper class which are of object of class object
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		// different common method use in day to day programming
 		String obj = " hello world";
