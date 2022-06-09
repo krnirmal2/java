@@ -1,5 +1,6 @@
 package com.globalpayex.geometery.ABCcompany;
 
+import com.globalpayex.geometery.ABCcompany.entity.Shape;
 import com.globalpayex.geometery.square.Squre;
 
 public class ShapeStatistics {
